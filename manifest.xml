@@ -12,6 +12,4 @@
   <project name="meta-espressobin"        remote="espressobin"        revision="dunfell" path="sources/meta-espressobin"/>
   <project name="meta-mender-espressobin" remote="mender-espressobin" revision="dunfell" path="sources/meta-mender-espressobin"/>
   
-  <include name="scripts/mender.xml"/>
-
 </manifest>
