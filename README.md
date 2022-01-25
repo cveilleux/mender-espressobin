@@ -61,7 +61,7 @@ bitbake-layers add-layer ../sources/meta-espressobin/ ../sources/meta-mender/met
 # Build
 
 ```
-bitbake core-image-base
+bitbake core-image-minimal
 ```
 
 # Flashing
