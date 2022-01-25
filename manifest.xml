@@ -5,7 +5,7 @@
   <remote fetch="git://git.yoctoproject.org"        name="yocto"/>
   <remote fetch="https://github.com/mendersoftware" name="mender"/>
   <remote fetch="https://github.com/teamredlabs"    name="espressobin"/>
-  <remote fetch="https://github.com/teamredlabs"    name="mender-espressobin"/>
+  <remote fetch="https://github.com/cveilleux"      name="mender-espressobin"/>
 
   <project name="poky"                    remote="yocto"              revision="dunfell" path="sources/poky"/>
   <project name="meta-mender"             remote="mender"             revision="dunfell" path="sources/meta-mender"/>
