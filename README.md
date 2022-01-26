@@ -2,6 +2,12 @@
 
 Demo project for Yocto + Mender + Espressobin
 
+Discussion/announcement:
+
+https://hub.mender.io/t/preliminary-support-for-marvell-globalscale-espressobin-v5-v7/4538
+
+
+
 # Requirements
 
 - A supported host system with build tools for yocto:
