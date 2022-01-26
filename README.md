@@ -13,7 +13,7 @@ https://hub.mender.io/t/preliminary-support-for-marvell-globalscale-espressobin-
 - A supported host system with build tools for yocto:
   - https://www.yoctoproject.org/docs/current/mega-manual/mega-manual.html#detailed-supported-distros
 - Google repo tool:
-  - https://hub.mender.io/t/google-repo/58/2
+  - https://hub.mender.io/t/google-repo/58
 
 # Project setup
 
