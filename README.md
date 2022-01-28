@@ -35,6 +35,13 @@ At this point you should be in an fresh "build" directory, with the following fi
     └── templateconf.cfg
 ```
 
+Enable the layers:
+
+```
+bitbake-layers add-layer ../sources/meta-espressobin/ ../sources/meta-mender/meta-mender-core/ ../sources/meta-mender-espressobin/
+```
+
+
 Edit the local.conf and append the following for mender at the end of the file:
 
 ```
@@ -57,12 +64,6 @@ MENDER_FEATURES_ENABLE_append = " mender-uboot mender-image-sd"
 MENDER_FEATURES_DISABLE_append = " mender-grub mender-image-uefi"
 ```
 
-
-Enable the layers:
-
-```
-bitbake-layers add-layer ../sources/meta-espressobin/ ../sources/meta-mender/meta-mender-core/ ../sources/meta-mender-espressobin/
-```
 
 # Build
 
