@@ -60,6 +60,8 @@ IMAGE_INSTALL_append = " kernel-image kernel-devicetree"
 
 MENDER_IMAGE_BOOTLOADER_FILE = "u-boot-${MACHINE}.bin"
 
+MENDER_BOOT_PART_SIZE_MB = "32"
+
 MENDER_FEATURES_ENABLE_append = " mender-uboot mender-image-sd"
 MENDER_FEATURES_DISABLE_append = " mender-grub mender-image-uefi"
 ```
